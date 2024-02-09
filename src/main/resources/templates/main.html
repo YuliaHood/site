@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=devaice-width , initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/script.js"></script>
     <title>HELLO WORLD</title>
 </head>
+<style>
+    h1 {
+    display: none;
+    color: lite black;
+    font-size: 170px;
+    padding: 90px;
+    }
+
+    body {
+    background: grey;
+    }
+
+    .first{
+    background = black;
+    }
+</style>
+
+<script type="text/javascript">
+             function helloShow (){
+                document.getElementByID('hello').style.display = 'block';
+                document.getElementByID('button').style.display = 'none';
+            }
+        }
+</script>
 <body>
 <h1 id="hello">HELLO WORLD</h1>
+<button class="first" onclick="helloShow" id = "button">SHOW</button>
 </body>
 </html>
